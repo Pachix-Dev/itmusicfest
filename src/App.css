@@ -1,42 +1,183 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logosheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itmusicfest-wrapper {
+  background-image: url('/bgmusicfest.webp');
+  background-size: cover;
+}
+
+.logos-firstviewport {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.band {
+  position: relative;
+  margin-top: -10%;
+}
+
+.blackeyedpeas-wrapper {
+  position: relative;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.blackeyedpeas-wrapper .info-text {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.blackeyedpeas-wrapper .info-text h1 {
+  color: #E30613;
+  font-weight: bold;
+  line-height: 0.9;
+}
+
+.blackeyedpeas-wrapper .info-text h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0;
+  line-height: 1;
+}
+
+.band {
+  width: 75%;
+}
+
+.register-wrapper {
+  background-image: url('/bgmusicfest.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.areas-title {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0;
+  padding: 20px;
+}
+
+.areas-title span {
+  background-color: #E30613;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.areas {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  word-spacing: 15px;
+}
+
+.get-register {
+  background-color: #0A66FF;
+  width: fit-content;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 60px;
+  text-align: center;
+  line-height: 0.8;
+}
+
+.get-register span {
+  font-size: 20px;
+}
+
+.limit {
+  color: white;
+  font-weight: bold;
+  background-color: #E30613;
+  padding: 8px 20px;
+  border-radius: 15px;
+  line-height: 1;
+}
+
+.get-register2 {
+  background-color: #FFFFFF;
+  width: fit-content;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 60px;
+  text-align: center;
+}
+
+.get-register2 strong {
+  color: #E30613;
+}
+
+.footer-socialmedia a {
+  padding-left: 20px;
+}
+
+.footer-socialmedia svg {
+  fill: white;
+  width: 30px;
+  transition: 0.3s ease-in-out;
+}
+
+.footer-socialmedia svg:hover {
+  fill: #E30613;
+}
+
+@media (max-width: 995px) {
+  .logoband {
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .band {
+    width: 100%;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media (max-width: 425px) {
+  .logos-firstviewport {
+    font-size: 20px;
   }
-}
 
-.card {
-  padding: 2em;
-}
+  .blackeyedpeas-wrapper .info-text h2 {
+    font-size: 1.3em;
+  }
 
-.read-the-docs {
-  color: #888;
+  .logosheader img {
+    width: 150px;
+  }
+
+  .areas-title {
+    font-size: 1em;
+  }
+
+  .areas {
+    font-size: 1.5em;
+  }
+
+  .get-register {
+    font-size: 1em;
+  }
+
+  .get-register span {
+    font-size: 12px;
+  }
 }
