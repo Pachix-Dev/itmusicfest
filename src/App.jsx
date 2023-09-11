@@ -76,7 +76,7 @@ function App () {
             <Col md className='my-auto'>
               <img src='/djinvitado.png' alt='ITM MUSIC FEST' className='w-100' />
             </Col>
-            <Col md={5} style={{ marginTop: '-50px' }}>
+            <Col md={5}>
               <img src='/blackeyedpeas2.png' alt='ITM MUSIC FEST' className='w-100' />
             </Col>
             <Col md className='my-auto'>
