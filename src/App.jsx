@@ -20,7 +20,7 @@ function App () {
             <img src='/blackeyedpeas.webp' alt='Black Eyed Peas' className='band' />
             <div className='info-text'>
               <h1>6 DE OCTUBRE</h1>
-              <h2>REGÍSTRATE PARA ASISTIR</h2>
+              <h2>REGÍSTRATE PARA PARTICIPAR</h2>
             </div>
           </div>
         </Container>
