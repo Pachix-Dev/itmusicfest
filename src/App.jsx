@@ -73,13 +73,13 @@ function App () {
         </Container>
         <Container fluid className='pt-5 mt-5'>
           <Row className='mt-5'>
-            <Col md={3} className='my-auto'>
+            <Col md className='my-auto'>
               <img src='/djinvitado.png' alt='ITM MUSIC FEST' className='w-100' />
             </Col>
-            <Col md={6} style={{ marginTop: '-50px' }}>
+            <Col md={5} style={{ marginTop: '-50px' }}>
               <img src='/blackeyedpeas2.png' alt='ITM MUSIC FEST' className='w-100' />
             </Col>
-            <Col md={3} className='my-auto'>
+            <Col md className='my-auto'>
               <img src='/djinvitado2.png' alt='ITM MUSIC FEST' className='w-100' />
             </Col>
           </Row>
